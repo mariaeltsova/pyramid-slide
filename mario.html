@@ -5,8 +5,13 @@
     <link rel="stylesheet" href="mario.css">
 </head>
 <body>
-    <label for="simbol">Brick Symbol:</label>
-   <select name="simbol" id="simbol">
+    <div id="heading">
+<h1>Pyramid Slide</h1>
+</div>
+<div id="main">
+<div id="settings">
+    <label for="simbol" style="margin: 10px;">Brick Symbol:</label>
+   <select name="simbol" id="simbol" style="margin: 10px;">
        <option value="#">#</option>
        <option value="@">@</option>
        <option value="X">X</option>
@@ -14,14 +19,15 @@
    </select>
 
 
-   <label for="range">How high?</label>
-   <input type="range" min="1" max="20" id="range">
+   <label for="range" style="margin: 10px;">How high?</label>
+   <input type="range" min="1" max="20" id="range" style="margin: 10px;">
    
-   <label for="range" id="height"></label>
+   <label for="range" id="height" style="margin: 10px;"></label>
+</div>
     <div id="pyramid">
       
     </div>
-  
+</div>
     <script src="mario.js"></script>
 </body>
 </html>
